@@ -1,9 +1,5 @@
 import { Injectable } from 'angular2/core';
-
-interface ShoppingItem {
-    id: number,
-    name: string
-}
+import { ShoppingItem } from "../models/shopping-list.model";
 
 @Injectable()
 export class ShoppingService {
